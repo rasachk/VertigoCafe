@@ -4,4 +4,20 @@ h1{
 	color: red;
 }
 
+body{
+	color: white;
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	background-color: #000011;
+}
+p {
+	font-size: 19px;
+}
+ul {
+	font-size: 18px;
+	font-weight: bold;
+	list-style: none;
+}
+
  
