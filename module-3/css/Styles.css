@@ -9,36 +9,38 @@ grey: #ADADAD;
 body{
     color:#2E1114;
     background-color: #501B1D;
+    font-family: 'Raleway', sans-serif;
 }
 #header-nav {
     background-color: #2E1114;
+    padding-top: 20px;
     border: 0;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
     border-color: #83677B;
     border-radius: 0;
-    height:90px;
 }
 .navbar-brand{
-    padding-top:25px;
+    padding-top:0px;
+    padding-bottom: 70px;
 }
     .navbar-brand h1 {
         color: #ADADAD;
         font-size: 2.4em;
+        font-weight: bold;
         text-transform: uppercase;
         text-shadow: 1px 1px 1px #222;
         margin-top: 0;
-        margin-bottom: 0;
         margin-left: 5px;
         line-height: 1.2;
-        float:left;
     }
     .navbar-brand a:hover, .navbar-brand a:focus {
         text-decoration: none;
     }
 
 #nav-list {
-    font-size: 1.2em;
+    font-size: 1.5em;
     list-style: none;
+    margin-top: 10px;
 }
 
     #nav-list a {
@@ -72,6 +74,8 @@ body{
     margin-bottom: 30px;
 }
 #chicken-tile, #beef-tile, #sushi-tile {
+    position: relative;
+    overflow: hidden;
     background-color: #ADADAD;
     border: 2px solid;
     border-color: #64485C;
@@ -87,6 +91,7 @@ h3{
     border-bottom: 1px solid;
     border-color: #64485C;
 }
+
 
 @media (max-width:767px){
     .navbar-toggle {
