@@ -1,127 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vertigo Cafe</title>
+    <title>Coursera Test</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="index.html" class="pull-left visible-md visible-lg">
-                        <div id="logo-img"></div>
-                    </a>
+	<nav class="navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><h1>Coursera Test</h1></a>
+		</div>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-expanded="false">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div id="collapsable-nav" class="collapse navbar-collapse">
+			<ul id="nav-list" class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="">Vertigo Cafe</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="">Assignments</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<div id="module-box">
+					<ul>
+						<ul>
+						<li><a href="">Module 2 Wants</a></li>
+						<li><a href="">Module 2 Assignment</a></li>
+					</ul>
+					<ul>
+						<li><a href="">Module 3 Wants</a></li>
+						<li><a href="">Module 3 Assignment</a></li>
+					</ul>
+					<ul>
+						<li><a href="">Module 4 Wants</a></li>
+						<li><a href="">Module 4 Assignment</a></li>
+					</ul>
+					<ul>
+						<li><a href="">Module 5 Wants</a></li>
+						<li><a href="">Module 5 Assignment</a></li>
+					</ul>
+					</ul>
+			    </div>
+			</div>
+			<div id="main-content" class="col-md-9">
+				<div>Welcome!<br>
+					This is a webpage designed by me for accessing the Coursera-Test github repository pages. You can visit the course related assignments on the menu on the left.
+					Also you can visit a Cafe Website Sample which again, is designed by me. The cafe is called Vertigo Cafe and the related things are accesible below. You can contact me if you want by email, the contact info is available at the footer at the end of the page.<br>
+					Thanks so much!
+				</div>
+				<div id="cafe-box">
+					<p>Use the botton below to access the Vertigo Cafe page.</p>
+					<a id="cafeBtn" href="vertigoCafe/index.html"><div>Vertigo Cafe</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
 
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-                    <div class="navbar-brand">
-                        <a href="index.html"><h1>Vertigo Café</h1></a>
-                    </div>
-
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div id="collapsable-nav" class="collapsed navbar-collapse">
-                    <ul id="nav-list" class="nav navbar-nav navbar-right">
-                        <li class="visible-xs">
-                            <a href="index.html">
-                                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs" />Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="menu-categories.html">
-                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs" />Menu
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs" />About
-                            </a>
-                        </li>
-                        <li id="phone" class="hidden-xs">
-                            <a href="tel:696-969-6969">
-                                <span>696-969-6969</span><div>*WE KILL!</div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <div id="main-content " class="container">
-        <div id="call-btn" class="visible-xs">
-            <a class="btn" href="tel:696-969-6969">
-                <span class="glyphicon glyphicon-earphone"></span>
-                696-969-6969
-            </a>
-        </div>
-        <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
-        <div class="jumbotron">
-            <img src="images/cafe.jpg" alt="Picture of restaurant" class="img-responsive visible-xs" />
-        </div>
-        <div id="home-tiles" class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="menu-categories.html">
-                    <div id="menu-tile"><span>MENU</span></div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="menu-categories.html">
-                    <div id="specials-tile"><span>SPECIALS</span></div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <a href="https://goo.gl/maps/HjCJJSgQ6fGpSDvh9" target="_blank">
-                    <div id="map-tile">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6472.300418969175!2d50.90043200300901!3d35.79624556365032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dbdada3b95067%3A0x86fb89ecfbd65b3c!2sApple%20Restaurant!5e0!3m2!1sen!2s!4v1665842589979!5m2!1sen!2s"
-                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <span>
-                            MAP
-                        </span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <footer class="panel-footer">
-        <div class="container">
-            <div class="row">
-                <section id="hours" class="col-md-4">
-                    <span>Hours:</span><br />
-                    Sat-Wed: 9:00am - 10:00pm<br>
-                    Thurs: 9:00am - 11:30pm<br>
-                    Friday Closed
-                    <hr class="visible-xs visible-sm" />
-                </section>
-                <section id="address" class="col-md-4">
-                    <span>Address:</span><br>
-                    Alborz, Karaj<br>
-                    Mehrshahr, 215 Street
-                    <p>* Delivery area within 3 Kilometers, with minimum order of $10 plus $1 charge for all deliveries.</p>
-                    <hr class="visible-xs visible-sm">
-                </section>
-                <section id="testimonials" class="col-sm-4">
-                    <p>"The best cafe I've been to! And that's saying a lot, since I've been to many!"</p>
-                    <p>"Amazing! Great service! Couldn't ask for more! I'll be back again and again!"</p>
-                </section>
-            </div>
-            <div class="text-center">&copy; Copyright Vertigo Café 2022</div>
-        </div>
-
-    </footer>
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
 </body>
-
-</html>
